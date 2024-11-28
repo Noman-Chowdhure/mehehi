@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font_family_heading: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--font_family_heading);
+}
+
+#mehedi_body {
+    width: 94%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-gap: 30px;
+}
+
+.about_me {
+    background-color: rgba(230, 230, 230, 0.39);
+    padding: 10%;
+}
+
+.about_me > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content > h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 10px 0;
+    
+}
+
+.content > p {
+    font-size: 15px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+}
+
+.child > .svg {
+    width: 24px; 
+    margin-right: 10px;
+}
+
+.education_section,
+#work_experience {
+    width: 100%;
+    height: fit-content;
+}
+
+.title > h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: rgb(217, 219, 219);
+    padding: 10px 25px;
+}
+
+.parent {
+    display: grid;
+    grid-gap: 30px;
+    padding: 2% 10%;
+}
+
+.fast, .second, .children > h1 {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.name {
+    margin: 5rem 0; 
+}
+
+.name h1 {
+    font-size: 60px; 
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+
+.skills_extpas
+{
+    width: 100%;
+    height: fit-content;
+}
+
+ol
+{
+    list-style-type: inherit;
+}
+
+ol>li
+{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
